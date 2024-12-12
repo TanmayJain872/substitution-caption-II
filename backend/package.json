@@ -1,0 +1,27 @@
+{
+  "name": "substitution-caption-2",
+  "version": "1.0.0",
+  "description": "Backend for substitution caption application using GraphQL Subscription.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tanmay Jain",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.11.2",
+    "@graphql-tools/schema": "^10.0.11",
+    "apollo-server-express": "^3.13.0",
+    "app-module-path": "^2.2.0",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.9.0",
+    "graphql-subscriptions": "^3.0.0",
+    "graphql-ws": "^5.16.0",
+    "mysql2": "^3.11.5",
+    "nodemon": "^3.1.7",
+    "ws": "^8.18.0"
+  }
+}
